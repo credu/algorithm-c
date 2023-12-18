@@ -6,10 +6,10 @@ int main()
     char t;
     float k;
 
-    printf("Ingrese una letra");
+    printf("Ingrese un numero");
     scanf("%d", &x);
     printf("Ingrese una letra");
-    scanf("%c", &t);
+    scanf(" %c", &t);
     printf("Ingrese un decimal");
     scanf("%f", &k);
 

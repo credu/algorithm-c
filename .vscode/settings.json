@@ -52,5 +52,6 @@
     "code-runner.executorMap": {
         // Windows run
         "cpp": "g++ $workspaceRoot\\Code\\$fileName -o $workspaceRoot\\Out\\$fileNameWithoutExt && start cmd \"/c ; $workspaceRoot\\Out\\$fileNameWithoutExt & echo. & pause & exit\"",
-    },
+        "c": "g++ $workspaceRoot\\Code\\$fileName -o $workspaceRoot\\Out\\$fileNameWithoutExt && start cmd \"/c ; $workspaceRoot\\Out\\$fileNameWithoutExt & echo. & pause & exit\""
+    }
 }
